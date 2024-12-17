@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/questionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Pertanyaan" />
+
+    <EditText
+        android:id="@+id/optionAInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilihan A" />
+
+    <EditText
+        android:id="@+id/optionBInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilihan B" />
+
+    <EditText
+        android:id="@+id/optionCInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilihan C" />
+
+    <EditText
+        android:id="@+id/optionDInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilihan D" />
+
+    <EditText
+        android:id="@+id/correctAnswerInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jawaban Benar (A, B, C, D)" />
+
+    <Button
+        android:id="@+id/addQuestionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Pertanyaan" />
+
+    <Button
+        android:id="@+id/removeQuestionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Pertanyaan" />
+
+    <Button
+        android:id="@+id/backToMainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali ke Halaman Utama" />
+</LinearLayout>
